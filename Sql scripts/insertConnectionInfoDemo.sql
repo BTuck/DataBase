@@ -1,0 +1,1 @@
+﻿INSERT INTO public.demo_connections (hostname, database_name, user_name) VALUES('192.168.184.130', 'sprint-demo_demo', 'mw5'), ('192.168.184.130','trunk_demo','mw5');
