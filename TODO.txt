@@ -17,8 +17,14 @@ TODO for CSV system
 be put in the report. There also needs to be some kind of variable that defines which instances the data is pulled from. So for example is 
 it a single instance, all instances, or a group of instances
 
-- You can likely generate the csv by calling a function in postgres FYI.
-
+- You can likely generate the csv by calling a function in postgres FYI. 
+	Research - Ben
+	- http://stackoverflow.com/questions/1120109/export-postgres-table-to-csv-file-with-headings
+	-http://stackoverflow.com/questions/1517635/save-pl-pgsql-output-from-postgresql-to-a-csv-file
+	-http://www.postgresql.org/docs/current/interactive/sql-copy.html
+	-Dave M
+	-you can ask dave brown for the net solution billing report if you want to see a sample of how the csv report looks like
+	-http://www.gistutor.com/postgresqlpostgis/10-intermediate-postgresqlpostgis-tutorials/39-how-to-import-or-export-a-csv-file-using-postgresql-copy-to-and-copy-from-queries.html
 - There should be a UI, maybe a web UI, that allows someone to easily choose a csv report type that they want. Either from a list of reports
 that already exist or from the Web UI be able to define what kind of report you actually want. They click ok and then it downloads that 
 report for them
