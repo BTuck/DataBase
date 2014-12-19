@@ -1,0 +1,38 @@
+ public String[] getDataBaseInfoFromFile() throws SQLException{
+//			   
+//			   String csvFile = "/Data_Mangement/files/database_Parameters.csv";
+//			   BufferedReader br = null;
+//			   String line = "";
+//			   String cvsSplitBy = ",";
+//			   
+//			   try {
+//				   
+//					br = new BufferedReader(new FileReader(csvFile));
+//					while ((line = br.readLine()) != null) {
+//			 
+//					        // use comma as separator
+//						String[] databaseParameters = line.split(cvsSplitBy);
+//						createIndividualConnection(databaseParameters[0], databaseParameters[1],
+//								databaseParameters[2],databaseParameters[3], databaseParameters[4] );
+//			 
+//					}
+//			 
+//				} catch (FileNotFoundException e) {
+//					e.printStackTrace();
+//				} catch (IOException e) {
+//					e.printStackTrace();
+//				} finally {
+//					if (br != null) {
+//						try {
+//							br.close();
+//						} catch (IOException e) {
+//							e.printStackTrace();
+//						}
+//					}
+//				}
+//			 
+//				System.out.println("Done");
+//			   
+//			   
+//			   return null;
+//		   }
