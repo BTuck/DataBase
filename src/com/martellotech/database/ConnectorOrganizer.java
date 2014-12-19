@@ -1,3 +1,4 @@
+package com.martellotech.database;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -42,7 +43,7 @@ public class ConnectorOrganizer {
 				   connections.add(createIndividualConnection(connectionInfoItr.next()));
 			   }
 			   
-			   System.out.println("All database connections attempted");
+			   System.out.println("Ben All database connections attempted");
 			   
 			   return connections;
 			   

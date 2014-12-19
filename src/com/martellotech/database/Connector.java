@@ -1,3 +1,4 @@
+package com.martellotech.database;
 
 import java.sql.*;
 import java.util.List;
@@ -27,7 +28,7 @@ public class Connector {
 	// creates a jdbc connection to a database that is specified by the database info. Returns the connection created. SSL is used.
 	public Connection createConnection() throws SQLException{
 		
-			System.out.println("PostgreSQL JDBC Driver Registered");
+			System.out.println("PostgreSQL JDBC Driver Registered Ben");
 			Connection connection = null;
 		
 			try {
@@ -51,7 +52,7 @@ public class Connector {
 	
 				if (connection != null) {
 	
-				System.out.println("Connection successful!");
+				System.out.println("Connection successful Ben!");
 				return connection;
 	
 				} else {

@@ -1,3 +1,4 @@
+package com.martellotech.database;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
@@ -52,7 +53,7 @@ public class Job implements Runnable {
 		ResultSet report = null;
 		
 		try{
-			System.out.println("Selecting data from " + currentConnection.getCatalog());
+			System.out.println("Ben Selecting data from " + currentConnection.getCatalog());
 			if (query != null && query != ""){
 				Statement selectStatement = currentConnection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, 
 						ResultSet.CONCUR_READ_ONLY);
@@ -111,7 +112,7 @@ public class Job implements Runnable {
 		    	  System.exit(0);
 			
 		       	}
-				System.out.println("Inserting data into table " + tableName);
+				System.out.println("Ben Inserting data into table " + tableName);
 			}
 	}
 	
@@ -126,7 +127,7 @@ public class Job implements Runnable {
 			System.out.println("Executing Script");
 		}
 		
-		System.out.println("Job Complete");
+		System.out.println("Job Complete Ben");
 	}
 	
 	// Gets the column names of the table specified in the database warehouse

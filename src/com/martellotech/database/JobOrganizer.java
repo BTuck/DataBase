@@ -1,3 +1,4 @@
+package com.martellotech.database;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -70,7 +71,7 @@ public class JobOrganizer {
 				Job job = new Job(dbWarehouseConnection, currentJob, instancesConnections);
 				scheduler.scheduleAtFixedRate(job, 0,jobFrequency, TimeUnit.MINUTES);
 			}
-			System.out.println("All jobs scheduled");
+			System.out.println("All jobs scheduled Ben");
 		}
 
 		
@@ -110,7 +111,7 @@ public class JobOrganizer {
 				}	   
 				jobList.add(job);
 			}
-			System.out.println("List of jobs fetched");
+			System.out.println("List of jobs fetched Ben");
 			return jobList;
 			
 		}

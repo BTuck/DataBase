@@ -1,3 +1,4 @@
+package com.martellotech.database;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -11,7 +12,7 @@ public class Main {
 		
 		JobOrganizer jobOrganizer = JobOrganizer.getInstance();
 		jobOrganizer.initialize(connections);		
-		System.out.print("Connections made");
+		System.out.println("Connections made Ben");
 		
 		jobOrganizer.scheduleJobs();		
 	}
