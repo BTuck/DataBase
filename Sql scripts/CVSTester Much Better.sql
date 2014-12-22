@@ -1,0 +1,2 @@
+﻿COPY etl_test(instance, timestamp, serial, type)TO 'C:\Users\Public\alldata_export.csv' DELIMITER ',' CSV HEADER;
+COPY etl_billing(instance, timestamp,region,customer,type, serial) to 'C:\Users\Public\billing_export.csv' DELIMITER ',' CSV HEADER;
