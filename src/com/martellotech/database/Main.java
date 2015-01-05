@@ -8,14 +8,13 @@ public class Main {
 
 	public static void main(String[] args) throws SQLException {
 
-		List <Connection> connections = ConnectorOrganizer.getInstance().inititateConnectionProcess();
-		
+		List<Connection> connections = ConnectorOrganizer.getInstance().inititateConnectionProcess();
+		// TODO win
 		JobOrganizer jobOrganizer = JobOrganizer.getInstance();
-		jobOrganizer.initialize(connections);		
+		jobOrganizer.initialize(connections);
 		System.out.println("Connections made Ben");
-		
-		jobOrganizer.scheduleJobs();		
+
+		jobOrganizer.scheduleJobs();
 	}
 
 }
-
